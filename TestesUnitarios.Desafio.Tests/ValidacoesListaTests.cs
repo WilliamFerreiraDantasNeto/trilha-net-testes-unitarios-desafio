@@ -45,7 +45,6 @@ public class ValidacoesListaTests
 
         // Act
 
-<<<<<<< HEAD
         var resultado = _validacoes.ListaContemDeterminadoNumero(lista, numeroParaProcurar);
 
         // Assert
@@ -54,12 +53,6 @@ public class ValidacoesListaTests
 
     //TODO: Corrigir a anotação [Fact]
     [Fact]
-=======
-        // Assert
-    }
-
-    //TODO: Corrigir a anotação [Fact]
->>>>>>> a59d95c63dc00d6cddb3a841814cc0d8dd008e2c
     public void DeveMultiplicarOsElementosDaListaPor2()
     {
         //TODO: Implementar método de teste
@@ -69,15 +62,10 @@ public class ValidacoesListaTests
         var resultadoEsperado = new List<int> { 10, 14, 16, 18 };
         
         // Act
-<<<<<<< HEAD
         var resultado = _validacoes.MultiplicarNumerosLista(lista, 2);
 
         // Assert
         Assert.Equal(resultadoEsperado, resultado);
-=======
-
-        // Assert
->>>>>>> a59d95c63dc00d6cddb3a841814cc0d8dd008e2c
     }
 
     [Fact]
@@ -90,17 +78,11 @@ public class ValidacoesListaTests
 
         // Act
 
-<<<<<<< HEAD
         var resultado = _validacoes.RetornarMaiorNumeroLista(lista);
 
         // Assert
         //TODO: Corrigir o Assert.Equal com base no retorno da chamada ao método
         Assert.Equal(9, resultado);
-=======
-        // Assert
-        //TODO: Corrigir o Assert.Equal com base no retorno da chamada ao método
-        Assert.Equal(9, 9);
->>>>>>> a59d95c63dc00d6cddb3a841814cc0d8dd008e2c
     }
 
     [Fact]
@@ -116,10 +98,6 @@ public class ValidacoesListaTests
 
         // Assert
         //TODO: Corrigir o Assert.Equal com base no retorno da chamada ao método
-<<<<<<< HEAD
         Assert.Equal(-8, resultado);
-=======
-        Assert.Equal(-8, -8);
->>>>>>> a59d95c63dc00d6cddb3a841814cc0d8dd008e2c
     }
 }
